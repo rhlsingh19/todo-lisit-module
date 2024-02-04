@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-do List App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="logo">
+      <div><img src="./rocket.svg" /></div>
+      <div><img src="./todo.svg" /></div>
+    </section>
+
+    <div class="container">
+      <form id="task-form">
+        <input
+          type="text"
+          id="task-name"
+          placeholder="Enter Your task name"
+          required
+        />
+        <input type="date" id="task-due-date" style="display: none" />
+        <button type="submit">Add Task</button>
+      </form>
+    </div>
+    <div class="main">
+      <div id="task-count">TO DO</div>
+      <div id="high-priority">HIGH PIRORITY</div>
+    </div>
+    <hr class="line" />
+
+    <div id="task-list"></div>
+
+    <section class="foot">
+      <div class="main">
+        <div id="counts">Completed</div>
+        <div >HIGH PIRORITY</div>
+      </div>
+
+     
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>

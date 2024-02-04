@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.logo {
+  width: 100vw;
+  height: 100px;
+  background-color: black;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+#task-form input {
+  height: 50px;
+  width: 50vw;
+  border-radius: 5px;
+  margin: 20px auto;
+  padding: 10px;
+}
+#task-form button {
+  height: 50px;
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 10px;
+  background: rgba(30, 111, 159, 1);
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40vw;
+  margin: 10px;
+}
+.line {
+  width: 50%; /* Adjust the width of the line as needed */
+  border: none;
+  border-top: 1px solid black; /* Customize the style of the line */
+  margin: 20px auto; /* Adjust margin to center the line vertically */
+}
+#task-list {
+  list-style-type: none;
+  padding: 0;
+  width: 50%;
+  margin: auto;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  background: linear-gradient(0deg, #333333, #333333),
+    linear-gradient(0deg, #262626, #262626);
+ color: aliceblue;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 20px auto;
+}
+
+.task .name {
+  flex: 1;
+}
+
+.task .actions {
+  display: flex;
+}
+
+.task .actions button {
+  margin-left: 10px;
+}
+.foot {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  justify-content: center;
+  padding: 10px;
+  margin: auto;
+  position: sticky;
+  bottom: 10;
+}
+.main2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40vw;
+    margin: 10px;
+  }
